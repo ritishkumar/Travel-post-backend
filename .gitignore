@@ -1,0 +1,72 @@
+# Node modules  
+node_modules/  
+npm-debug.log  
+yarn-debug.log  
+yarn-error.log  
+pnpm-debug.log  
+
+# Environment variables  
+.env  
+.env.local  
+.env.development.local  
+.env.test.local  
+.env.production.local  
+
+# Logs  
+logs  
+*.log  
+npm-debug.log*  
+yarn-debug.log*  
+pnpm-debug.log*  
+lerna-debug.log*  
+.log  
+logs/*  
+*.log  
+debug.log  
+
+# Database  
+*.sqlite  
+*.sqlite3  
+*.db  
+*.db-journal  
+*.sql  
+*.pids  
+*.seed  
+
+# Build files  
+dist/  
+build/  
+coverage/  
+
+# Cache files  
+.cache/  
+.nyc_output/  
+.vscode/  
+.DS_Store  
+*.swp  
+.idea/  
+
+# Uploads & Temporary files  
+uploads/  
+temp/  
+tmp/  
+public/uploads/  
+public/temp/  
+
+# Dependency directories  
+.bower_components/  
+.jest-cache/  
+.jest/  
+.eslintcache  
+
+# Docker files  
+docker-compose.override.yml  
+.dockerignore  
+
+# Ignore local AWS credentials  
+.aws/  
+
+# Miscellaneous  
+*.bak  
+*.pid  
+*.seed  
